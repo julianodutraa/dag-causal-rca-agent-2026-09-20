@@ -1,0 +1,50 @@
+{
+  "true_root": "join_orders_events",
+  "observed_failed": [
+    "join_orders_events",
+    "load_warehouse_facts",
+    "agg_customer_360",
+    "publish_report"
+  ],
+  "bayesian_ranking": [
+    {
+      "node": "join_orders_events",
+      "posterior": 0.8728
+    },
+    {
+      "node": "load_warehouse_facts",
+      "posterior": 0.0898
+    },
+    {
+      "node": "agg_customer_360",
+      "posterior": 0.0335
+    },
+    {
+      "node": "publish_report",
+      "posterior": 0.0039
+    }
+  ],
+  "agent_verdicts_on_top3": [
+    {
+      "node": "join_orders_events",
+      "evidence_score": 0.2,
+      "rationale": "0 incriminating signal(s): none"
+    },
+    {
+      "node": "load_warehouse_facts",
+      "evidence_score": 0.2,
+      "rationale": "0 incriminating signal(s): none"
+    },
+    {
+      "node": "agg_customer_360",
+      "evidence_score": 0.9781,
+      "rationale": "4 incriminating signal(s): authentication failed, config change, secret rejected, spiked to pool_max"
+    }
+  ],
+  "fused_ranking": [
+    "join_orders_events",
+    "load_warehouse_facts",
+    "agg_customer_360",
+    "publish_report"
+  ]
+}

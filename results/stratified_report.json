@@ -1,0 +1,14 @@
+{
+  "easy_agreement": {
+    "n_incidents": 940,
+    "baseline_p1": 0.9,
+    "bayesian_p1": 0.9,
+    "fused_p1": 0.902127659574468
+  },
+  "hard_disagreement": {
+    "n_incidents": 60,
+    "baseline_p1": 0.6,
+    "bayesian_p1": 0.35,
+    "fused_p1": 0.5
+  }
+}

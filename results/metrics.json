@@ -1,0 +1,20 @@
+{
+  "baseline_topological": {
+    "precision_at_1": 0.882,
+    "precision_at_3": 0.969,
+    "mrr": 0.9253821428571428,
+    "n_incidents": 1000
+  },
+  "bayesian_mean_field": {
+    "precision_at_1": 0.867,
+    "precision_at_3": 0.965,
+    "mrr": 0.9180404761904761,
+    "n_incidents": 1000
+  },
+  "bayesian_plus_agent": {
+    "precision_at_1": 0.878,
+    "precision_at_3": 0.972,
+    "mrr": 0.9252071428571429,
+    "n_incidents": 1000
+  }
+}

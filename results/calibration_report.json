@@ -1,0 +1,22 @@
+{
+  "per_node_mae": {
+    "ingest_orders": 0.0006872727272727295,
+    "ingest_events": 0.00036727272727272997,
+    "ingest_reference": 0.00038363636363636237,
+    "clean_orders": 0.0010771818181818061,
+    "clean_events": 0.0008428749090909216,
+    "join_orders_events": 0.0010948682022745078,
+    "enrich_reference": 0.0007458181818181777,
+    "load_warehouse_facts": 0.0017776744676758771,
+    "load_warehouse_dims": 0.0006720144937381947,
+    "agg_daily_metrics": 0.0021092938653762814,
+    "agg_customer_360": 0.0018863977789494786,
+    "publish_report": 0.0280118698352386
+  },
+  "convergence_nodes": [
+    "publish_report"
+  ],
+  "convergence_node_mae": 0.0280118698352386,
+  "non_convergence_node_mae": 0.0010585732304806425,
+  "trials_per_root": 50000
+}
