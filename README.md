@@ -133,8 +133,8 @@ results/            measured output of the last run_demo.py execution
 Requires Python 3.10 or later. No paid API access is required to run the full test suite or the default demo.
 
 ```bash
-git clone https://github.com/julianodutraa/dag-causal-rca-agent-2026-09-20.git
-cd dag-causal-rca-agent-2026-09-20
+git clone https://github.com/julianodutraa/causal-rca.git
+cd causal-rca
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 pytest -q
